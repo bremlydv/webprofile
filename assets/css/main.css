@@ -92,15 +92,18 @@ body {
   border-bottom-color: #2d3436;
 }
 
-/* @media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
+@media (min-width: 360px) {
+/*   .masthead-brand {
+  float: left;
+} */
+/*   .nav-masthead {
+  float: right;
+} */
   .nav-masthead {
-    float: right;
+    margin-bottom: 5px;
   }
+
 }
- */
 
 /*
  * Cover
@@ -121,7 +124,7 @@ body {
   /* color: rgba(255, 255, 255, .5); */
   margin-bottom: 0;
   font-size: 14px;
-  border-top: solid 1px #ecf0f1;
+  border-top: solid 1px #b2bec3;
 }
 
 
