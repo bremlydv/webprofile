@@ -89,7 +89,7 @@ body {
 
 .nav-masthead .active {
  /*  color: #fff; */
-  border-bottom-color: #fff;
+  border-bottom-color: #2d3436;
 }
 
 /* @media (min-width: 48em) {
@@ -117,8 +117,11 @@ body {
 /*
  * Footer
  */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+.mastfoot p{
+  /* color: rgba(255, 255, 255, .5); */
+  margin-bottom: 0;
+  font-size: 14px;
+  border-top: solid 1px #ecf0f1;
 }
 
 
