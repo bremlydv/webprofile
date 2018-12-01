@@ -92,16 +92,20 @@ body {
   border-bottom-color: #2d3436;
 }
 
-@media (min-width: 360px) {
+@media (360px <= width <= 200px) {
 /*   .masthead-brand {
   float: left;
 } */
 /*   .nav-masthead {
   float: right;
 } */
-  .nav-masthead {
-    margin-bottom: 5px;
-  }
+/*   .nav-masthead {
+  margin-bottom: 5px;
+} */
+
+/*   footer div p {
+  display: none;
+} */
 
 }
 
